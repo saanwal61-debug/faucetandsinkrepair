@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://faucetandsinkrepairhayward.us/sitemap.xml
+Sitemap: https://faucetandsinkrepairhayward.us/image-sitemap.xml
