@@ -267,32 +267,44 @@
     <main>
 
     
-  <section class="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[140px] lg:pt-[160px]">
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-accent-glow/10 blur-[150px] rounded-full pointer-events-none"></div>
-    <div class="absolute bottom-0 left-0 w-full h-px bg-linear-to-br from-border/0 via-border to-border/0"></div>
-    <div class="container mx-auto px-6 relative z-10">
-      <div class="max-w-3xl mx-auto text-center">
+ <!-- Increased top padding (pt-44) to clear the floating header completely -->
+<section class="relative overflow-hidden bg-white pt-44 pb-20">
+    <div class="container mx-auto px-8 md:px-12 lg:px-16">
         
-        <span class="inline-block text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase mb-6">What We Offer</span>
-        
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] mb-6">
-          <span class="text-muted-foreground">Comprehensive faucet and sink</span>
-          <span class="text-foreground">repair services</span>
-        </h1>
-        <p class="text-lg text-muted-foreground leading-relaxed mb-8 max-w-xl mx-auto">
-          Our range of Faucet and Sink Repair services is designed to meet all your plumbing needs in Hayward, CA. Whether it's a leaky faucet or a clogged sink, our team is here to provide affordable solutions for every situation.
-        </p>
-        <nav class="flex items-center justify-center gap-2 text-sm">
-          
-                      <a href="./" class="text-muted-foreground hover:text-foreground transition-colors">Home</a>
-                      <span class="text-muted-foreground">/</span>
-                    <span class="text-foreground font-medium">Services</span>
-        </nav>
-      </div>
-    </div>
-  </section>
-  
+        <!-- Grid layout: Text gets 60% space, Image gets 40% -->
+        <div class="grid items-center gap-12 lg:grid-cols-[1.2fr_0.8fr]">
+            
+            <!-- Left Side: Typography -->
+            <div class="text-left">
+                <span class="mb-6 inline-block border border-[#ff5c00] px-3 py-1 text-[10px] font-bold uppercase tracking-[0.3em] text-[#ff5c00]">
+                    What We Offer
+                </span>
+                
+                <h1 class="mb-8 text-5xl font-[900] uppercase leading-[0.95] tracking-tighter text-black md:text-6xl lg:text-7xl">
+                    Comprehensive <br>
+                    Faucet and Sink <br>
+                    Repair <span class="text-[#ff5c00]">Services</span>
+                </h1>
+                
+                <p class="mb-10 max-w-lg text-lg font-medium leading-relaxed text-slate-600">
+                    Our range of Faucet and Sink Repair services is designed to meet all your plumbing needs in <strong>Hayward, CA</strong>. Professional solutions for every situation.
+                </p>
+                
+                <a href="tel:+15105447200" class="inline-block bg-[#ff5c00] px-10 py-4 text-sm font-black uppercase tracking-widest text-white transition-all hover:bg-black">
+                    Call Now: +1 (510) 544-7200
+                </a>
+            </div>
 
+            <!-- Right Side: Image -->
+            <div class="relative">
+                <div class="overflow-hidden rounded-sm border-[10px] border-slate-50 shadow-2xl">
+                    <img src="assets/images/faucet-and-sink-repair-specialist-hayward-faucet-repair-8.webp" alt="Faucet and Sink Repair" class="h-auto w-full object-cover">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
     
   <section id="services" class="py-20 bg-muted">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
