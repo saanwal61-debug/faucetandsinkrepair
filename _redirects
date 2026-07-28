@@ -1,9 +1,5 @@
+# Remove .html from all URLs
 /*.html  /:splat  301
-/index.html / 301
-/about.html /about 301
-/contact.html /contact 301
-/services.html /services 301
-/locations.html /locations 301
-/privacy-policy.html /privacy-policy 301
-/blog.html /blog 301
+
+# Force non-www
 https://www.faucetandsinkrepairhayward.us/* https://faucetandsinkrepairhayward.us/:splat 301!
